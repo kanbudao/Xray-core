@@ -1,6 +1,6 @@
 module github.com/xtls/xray-core
 
-go 1.25.6
+go 1.25.7
 
 require (
 	github.com/apernet/quic-go v0.57.2-0.20260111184307-eec823306178
@@ -9,6 +9,7 @@ require (
 	github.com/golang/mock v1.7.0-rc.1
 	github.com/google/go-cmp v0.7.0
 	github.com/gorilla/websocket v1.5.3
+	github.com/klauspost/cpuid/v2 v2.0.12
 	github.com/miekg/dns v1.1.72
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pires/go-proxyproto v0.9.2
@@ -28,7 +29,7 @@ require (
 	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
-	gvisor.dev/gvisor v0.0.0-20260109181451-4be7c433dae2
+	gvisor.dev/gvisor v0.0.0-20260122175437-89a5d21be8f0
 	h12.io/socks v1.0.3
 	lukechampine.com/blake3 v1.4.1
 )
@@ -39,7 +40,6 @@ require (
 	github.com/google/btree v1.1.2 // indirect
 	github.com/juju/ratelimit v1.0.2 // indirect
 	github.com/klauspost/compress v1.17.4 // indirect
-	github.com/klauspost/cpuid/v2 v2.0.12 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
